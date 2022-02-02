@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Aji_Hand.ttf";
+    src: url("Aji_Hand.ttf");
+}
+
+header {
+    font-family: "Aji_Hand.ttf";
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+.tamagotchi {
+    background: darkred;
+    width: 275px;
+    height: 325px;
+    border-radius: 300px / 410px 410px 300px 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.75), 0 0 40px 15px rgba(0, 0, 0, 0.75) inset;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 0.8rem;
+}
+button {
+    background-color: yellow;
+    justify-content: center;
+    padding: 4px;
+    margin-bottom: 3rem;
+    margin-left: 2.4rem;
+    border-radius: 40px;
+    box-shadow: 0 0 10px lightgrey, 0 0 30px 10px gold inset;
+    
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.hun {
+    text-transform: uppercase;
+    padding-right: 1rem;
+}
+.hap {
+    text-transform: uppercase;
+    padding-right: 1rem;
+}
+.ene {
+    text-transform: uppercase;
+    padding-right: 1rem;
+}
+    
